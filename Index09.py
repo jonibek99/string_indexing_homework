@@ -6,4 +6,14 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    a=''
+    b=[]
+    for i in str(s):
+        if i in '1234567890':
+            a+=i
+            b.append(a)
+    return b[-1]
+l=str(input())
+p=(main(l))
+print(int(p))
+        
