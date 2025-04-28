@@ -6,5 +6,10 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    if '*' in s:
+        return str(s).index("*")
+    return False
+a=str(input())
+print(main(a))
+
         
