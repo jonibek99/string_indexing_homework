@@ -6,4 +6,11 @@ def main(s):
     Returns:
         int: answer
     """
-    return
+    a=0
+    b=[]
+    for i in (s):
+        a+=int(i)
+        b.append(a)
+    return b[-1]
+l=input()
+print(main(l))
